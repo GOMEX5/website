@@ -1,0 +1,20 @@
+{% extends 'latyout.html' %}
+{% block content %}
+    <div class="container-fluid">
+        <div class="card cont-contact animate__animated animate__flipInY">
+            <div class="card-header bg-dark text-white cont-header">
+                <h1>Contact</h1>
+            </div>
+            <div class="card-body cont-body">
+                <form>
+                    <input type="text" class="form-control" placeholder="Title" required>
+                    <textarea class="form-control" rows="4" placeholder="Asunto" required></textarea>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+            <div class="card-footer bg-dark text-white  cont-footer">
+                <h3>CodeGX</h3>
+            </div>
+        </div>
+    </div>
+{% endblock %}
